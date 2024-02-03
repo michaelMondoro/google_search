@@ -36,10 +36,3 @@ class GoogleSearch():
                 
         self.results = results
         return results
-
-google = GoogleSearch()
-a = google.search("the notorious B.I.G")
-
-for i in a:
-    print(i)
-    print()
